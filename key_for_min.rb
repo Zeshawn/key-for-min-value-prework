@@ -3,12 +3,6 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(ikea)
-  lowest = " "
-  ikea.each do | furniture, price |
-    if price < 30
-      return furniture
-    else
-      return "nil"
-      lowest = furniture
-   
+  if ikea.length == 0
+    return nil
 end
