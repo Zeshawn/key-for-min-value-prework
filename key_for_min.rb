@@ -10,7 +10,5 @@ def key_for_min_value(ikea)
     else
       return "nil"
       lowest = furniture
-    end
-    lowest
-  end
+   
 end
