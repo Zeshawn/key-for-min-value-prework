@@ -8,7 +8,7 @@ def key_for_min_value(ikea)
     if price < 30
       return furniture
     else
-      return nil
+      return "nil"
       lowest = furniture
     end
     lowest
